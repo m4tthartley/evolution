@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: evolution - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Matt\AppData\Local\Temp\RSP7EC5.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/evolution.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Matt\code\evolution\game.cpp"
+]
+Creating command line "cl.exe @C:\Users\Matt\AppData\Local\Temp\RSP7EC5.tmp" 
+Creating temporary file "C:\Users\Matt\AppData\Local\Temp\RSP7EC6.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/evolution.pdb" /debug /machine:I386 /out:"Debug/evolution.exe" /pdbtype:sept 
+.\Debug\game.obj
+.\Debug\main.obj
+.\Debug\math.obj
+]
+Creating command line "link.exe @C:\Users\Matt\AppData\Local\Temp\RSP7EC6.tmp"
+<h3>Output Window</h3>
+Compiling...
+game.cpp
+C:\Users\Matt\code\evolution\game.cpp(26) : warning C4244: 'initializing' : conversion from 'const double' to 'const int', possible loss of data
+C:\Users\Matt\code\evolution\game.cpp(50) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\code\evolution\game.cpp(60) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\code\evolution\game.cpp(68) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\code\evolution\game.cpp(71) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+C:\Users\Matt\code\evolution\game.cpp(72) : warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+C:\Users\Matt\code\evolution\game.cpp(96) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\code\evolution\game.cpp(97) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\code\evolution\game.cpp(108) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\code\evolution\game.cpp(109) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\code\evolution\game.cpp(111) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\code\evolution\game.cpp(130) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\code\evolution\game.cpp(272) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+C:\Users\Matt\code\evolution\game.cpp(272) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+C:\Users\Matt\code\evolution\game.cpp(272) : warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+C:\Users\Matt\code\evolution\game.cpp(309) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+C:\Users\Matt\code\evolution\game.cpp(309) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+C:\Users\Matt\code\evolution\game.cpp(309) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+C:\Users\Matt\code\evolution\game.cpp(309) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+C:\Users\Matt\code\evolution\game.cpp(299) : warning C4101: 'f' : unreferenced local variable
+C:\Users\Matt\code\evolution\game.cpp(419) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\code\evolution\game.cpp(420) : warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\code\evolution\game.cpp(474) : warning C4305: '-=' : truncation from 'const double' to 'float'
+C:\Users\Matt\code\evolution\game.cpp(476) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\code\evolution\game.cpp(482) : warning C4305: '+=' : truncation from 'const double' to 'float'
+C:\Users\Matt\code\evolution\game.cpp(483) : warning C4305: '+=' : truncation from 'const double' to 'float'
+C:\Users\Matt\code\evolution\game.cpp(494) : warning C4305: '-=' : truncation from 'const double' to 'float'
+C:\Users\Matt\code\evolution\game.cpp(533) : warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+C:\Users\Matt\code\evolution\game.cpp(579) : warning C4305: 'argument' : truncation from 'const double' to 'float'
+Linking...
+
+
+
+<h3>Results</h3>
+evolution.exe - 0 error(s), 29 warning(s)
+</pre>
+</body>
+</html>
